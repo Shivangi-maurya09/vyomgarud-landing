@@ -1,16 +1,86 @@
-# React + Vite
+# VyomGarud – UAV Systems Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, dark-themed landing page built for **VyomGarud**, a conceptual UAV & drone-systems company.  
+The design follows a **military-grade aesthetic** with clean layout, modular components, and a professional UI using **React + Vite + Tailwind CSS**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+### ✔ Clean, Dark Defense-Style UI  
+Professional military-grade theme with orange highlights.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### ✔ Fully Modular Components  
+- Hero Section  
+- About Section  
+- Capabilities Section  
+- System Highlights  
+- Contact Section  
 
-## Expanding the ESLint configuration
+### ✔ Tailwind-Powered Styling  
+Fast, responsive utility classes for layout and spacing.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### ✔ Smooth Section Structure  
+Easy to read, easy to extend for future requirements.
+
+---
+
+## 📁 Project Structure
+
+/vyomgarud-landing
+├── public/
+├── src/
+│ ├── components/
+│ │ ├── Navbar.jsx
+│ │ ├── Hero.jsx
+│ │ ├── About.jsx
+│ │ ├── Capabilities.jsx
+│ │ ├── Highlights.jsx
+│ │ └── Contact.jsx
+│ ├── App.jsx
+│ ├── index.css
+│ └── main.jsx
+└── package.json
+
+yaml
+Copy code
+
+---
+
+## 🛠 Tech Stack
+
+- **React (Vite)**
+- **Tailwind CSS**
+- **JavaScript (ES6)**
+- **Responsive grid layouts**
+- **Modern UI/UX design principles**
+
+---
+
+## 📦 Installation
+
+npm install
+npm run dev
+
+nginx
+Copy code
+
+The app runs on:
+
+http://localhost:5173/
+
+yaml
+Copy code
+
+---
+
+## 📞 Contact
+
+**Developer:** Shivangi Maurya  
+If you have any questions, feel free to reach out!
+
+---
+
+## ⭐ Notes
+
+This project was created as part of a front-end assignment to demonstrate UI/UX skills, component
