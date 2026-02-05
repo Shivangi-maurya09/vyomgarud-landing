@@ -65,9 +65,6 @@ npm run dev
 nginx
 Copy code
 
-The app runs on:
-
-http://localhost:5173/
 
 yaml
 Copy code
